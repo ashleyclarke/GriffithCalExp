@@ -1,0 +1,17 @@
+{
+  "permissions": [ "tabs", "background", "https://www.google.com/calendar/feeds/*",
+    "https://www.google.com/accounts/OAuthGetRequestToken",
+    "https://www.google.com/accounts/OAuthAuthorizeToken",
+    "https://www.google.com/accounts/OAuthGetAccessToken",
+    "https://www.google.com/"
+  ],
+  "manifest_version": 2,
+  "name": "Griffith calendar exporer",
+  "version": "0.1",
+  "background": {
+    "page": "background.html"
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  }
+}
